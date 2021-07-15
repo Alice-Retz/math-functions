@@ -56,8 +56,8 @@ export function sumAndMultiplyThreeNumbers(a, b, c) {
     var sumResult = sum(sum(a, b)[0], c)[0];
     var productResult = multiply(multiply(a, b)[0], c)[0];
 
-    const string1 = `${a} and ${b} and ${c} sum to ${sumResult}`;
-    const string2 = `The product of ${a} and ${b} and ${c} is ${productResult}`;
+    const string1 = `${a} and ${b} and ${c} sum to ${sumResult}.`;
+    const string2 = `The product of ${a} and ${b} and ${c} is ${productResult}.`;
     return [sumResult, 
         productResult, 
         string1, 
